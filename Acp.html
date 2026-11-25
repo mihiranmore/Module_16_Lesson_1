@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Corner</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background: #111;
+            color: white;
+            padding: 20px 8%;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+        }
+
+        .logo img {
+            height: 70%;
+            max-height: 50px;
+            width: auto;
+            margin-right: 20px;
+        }
+
+        .topnav {
+            text-decoration: none;
+            gap: 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .topnav a {
+            color: white;
+            background: #111;
+            text-decoration: none;
+        }
+
+        .topnav a:hover{
+            color: orange;
+            transform: translateY(-2px);
+        }
+
+        .btn {
+            padding: 12px 20px;
+            border-radius: 6px;
+            background: white;
+            color: #111;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: mediumpurple;
+            color: white;
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo"><img src="Icon.png"></div>
+
+        <div class="topnav">
+            <a href="#">Recipes</a>
+            <a href="#">Popular</a>
+            <a href="#">Healthy Diet</a>
+            <a href="#">Holidays</a>
+            <a href="#">Cusine</a>
+            <a href="#">Seasonal</a>
+        </div>
+
+        <div>
+            <a href="#" class="btn">Log In</a>
+            <a href="#" class="btn">Sign Up</a>
+        </div>
+    </nav>
+</body>
+</html>
